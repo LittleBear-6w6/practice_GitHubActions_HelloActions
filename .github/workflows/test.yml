@@ -8,5 +8,5 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
-      - name: Verify hello acton works
+      - name: Verify hello action works
         uses: ./
