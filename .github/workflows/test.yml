@@ -1,0 +1,12 @@
+name: Test
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Test
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: Verify hello acton works
+        uses: ./
